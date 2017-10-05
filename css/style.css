@@ -1,0 +1,77 @@
+body {
+  background-color: #f6dbdf;
+  display: flex;
+  flex: 1;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+#home {
+  width: 350px;
+  height: 350px;
+  background-size: auto 350px;
+  background-repeat: no-repeat;
+  background-color: lightblue;
+  padding: 0;
+  margin: 0;
+  background-image: url('../img/cit-gif.gif');
+  background-size: cover;
+}
+
+button {
+  background-color: red;
+  color: white;
+  border: none;
+  height: 30px;
+  font-size: 12pt;
+  width: 90px;
+  margin-left: 9px;
+}
+
+button:hover {
+  background-color: orange;
+}
+
+button:disabled {
+  background-color: purple;
+}
+
+.controls {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+p {
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+.game {
+  display: flex;
+  flex: 1 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#mycanvas {
+  opacity: .7;
+}
+
+
+.title {
+  font-family: Helvetica;
+  text-align: center;
+  font-size: 41px;
+  letter-spacing: 9px;
+  padding-left: 9px;
+  margin-top: -20px;
+  margin-bottom: 15px;
+}
